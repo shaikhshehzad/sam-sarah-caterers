@@ -7,7 +7,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <div>
-       Sam-Sarah Caterers Coming soon.........</div>
+       Sam-Sarah Caterers Coming Live soon.........</div>
+       <div>
+       Reach out to us on below contacts</div>
        <div>
        email:- samsarahcaterers@gmail.com</div>
          <div>
