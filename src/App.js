@@ -6,7 +6,13 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-       <p>Sam-Sarah Caterers Coming soon.........</p>
+        <div>
+       Sam-Sarah Caterers Coming soon.........</div>
+       <div>
+       email:- samsarahcaterers@gmail.com</div>
+         <div>
+          Contact Information :-  +91 9822447649
+       </div>
       </header>
     </div>
   );
