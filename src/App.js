@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Carousel from './Components/Carousel';
+import Videoplayer from './Components/Videoplayer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
        </div>
       </header>
       <Carousel></Carousel>
+      <Videoplayer></Videoplayer>
     </div>
   );
 }
