@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Carousel from './Components/Carousel';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           Contact Information :-  +91 9822447649
        </div>
       </header>
+      <Carousel></Carousel>
     </div>
   );
 }
