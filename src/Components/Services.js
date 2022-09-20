@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Servicescard from './ServicesComponents/Servicescard'
 
 export default class Services extends Component {
   render() {
@@ -13,6 +14,8 @@ export default class Services extends Component {
      <div>
     Contact Information :-  +91 9822447649
     </div> */}
+    <Servicescard  />
+    <Servicescard  /> <Servicescard  /> <Servicescard  /> <Servicescard  /> <Servicescard  /> <Servicescard  /> <Servicescard  /> <Servicescard  /> <Servicescard  /> <Servicescard  /> <Servicescard  />
     </div>
     )
   }
