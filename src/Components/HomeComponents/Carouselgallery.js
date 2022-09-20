@@ -12,8 +12,8 @@ export default class Carouselgallery extends Component {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Nachos</h3>
+          <p>"Life is a nacho. It can be yummy-crunchy or squishy-yucky. It just depends on how long it takes for you to start eating it."</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -24,8 +24,8 @@ export default class Carouselgallery extends Component {
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>Burger</h3>
+          <p>yeah, i lift…this burger to my mouth</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -36,9 +36,9 @@ export default class Carouselgallery extends Component {
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Pizza</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          “My love is pizza shaped. Won’t you have a slice? It’s circular, so there’s enough to go around.”
           </p>
         </Carousel.Caption>
       </Carousel.Item>

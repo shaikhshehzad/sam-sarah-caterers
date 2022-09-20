@@ -19,6 +19,7 @@ import Contact from './Components/Contact';
 import Home from './Components/Home';
 import Services from './Components/Services';
 
+
 function App() {
   return (
     // <div className="App">
@@ -43,29 +44,21 @@ function App() {
         <Container>
           <Navbar.Brand as={Link} to="/"   >SamSarah Caterers</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link as={Link} to="/services"  >Services</Nav.Link>
-            {/* <Nav.Link as={Link} to="/services"  >Services</Nav.Link> */}
-            <Nav.Link as={Link} to="/contact"  >Contact Us</Nav.Link>
             <Nav.Link as={Link} to="/about"  >About</Nav.Link>
+            <Nav.Link as={Link} to="/services"  >Services</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
       <div>
         <Routes>
-    
           <Route path="/about" element={<About/>}/>
           <Route path="contact" element={<Contact/>}/>
           <Route path="/services" element={<Services/>}/>
           <Route path="/" element={<Home/>}/>
-
-
-
         </Routes>
-
       </div>
     </div>
   </BrowserRouter>
-    
   );
 }
 
