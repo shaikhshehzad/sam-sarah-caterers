@@ -14,8 +14,11 @@ export default class Services extends Component {
      <div>
     Contact Information :-  +91 9822447649
     </div> */}
-    <Servicescard  />
+    {/* <Servicescard  />
     <Servicescard  /> <Servicescard  /> <Servicescard  /> <Servicescard  /> <Servicescard  /> <Servicescard  /> <Servicescard  /> <Servicescard  /> <Servicescard  /> <Servicescard  /> <Servicescard  />
+   
+    */}
+    <div>Services Component</div>
     </div>
     )
   }
